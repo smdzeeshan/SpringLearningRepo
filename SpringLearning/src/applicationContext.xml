@@ -29,5 +29,6 @@
 	
 	<bean id="b" class="com.mac.autowireExample.B"> </bean>
 	<bean id="a" class="com.mac.autowireExample.A" autowire="byName"></bean>
+	<bean id = "helloWorld" class = "com.beanScopeLearnings.HelloWorld" scope="prototype"/>
 	
 </beans>  
